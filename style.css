@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.k{
+    display: flex;
+    float: left;
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#b7,#b4{
+    clear: left;
+}
+
+#winO{
+    height: 200px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#winX{
+    height: 200px;
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#cl{
+    position: absolute;
+    right: 250px;
+    top:20px;
+    width:200px;
+    height: 150px;
+}
+
+#clw{
+    position: absolute;
+    right: 250px;
+    top:190px;
+    width:200px;
+    height: 150px;
+}
